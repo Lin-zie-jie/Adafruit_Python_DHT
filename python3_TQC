@@ -1,0 +1,18 @@
+a=int(input("輸入一數字:"))
+b=int(input("輸入一數字:"))
+sum=0
+if a<b:
+    print("請重新輸入，a的值要大於b.")
+    a=int(input("輸入一數字:"))
+    b=int(input("輸入一數字:"))
+    
+    for num in range(b,a+1):
+        if num%2==0:
+            sum+=num
+    print(sum)
+else:
+    for num in range(b,a+1):
+        if num%2==0:
+            sum+=num 
+    打印（總和）＃此題為輸入兩數字並提取2之倍數總和輸出
+    
