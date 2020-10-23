@@ -14,5 +14,6 @@ else:
     for num in range(b,a+1):
         if num%2==0:
             sum+=num 
-    打印（總和）＃此題為輸入兩數字並提取2之倍數總和輸出
+    print(sum)
+＃此題為輸入兩數字並提取2之倍數總和再將結果輸出
     
