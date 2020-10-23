@@ -16,4 +16,17 @@ else:
             sum+=num 
     print(sum)
 ＃此題為輸入兩數字並提取2之倍數總和再將結果輸出
+
+
+
+
+
+l=[]
+while True:
+    a=eval(input())
+    if a==9999:
+        break
+    l.append(a)
+print(min(l))
+##不斷輸入數字，輸入9999停止並輸出數字中的最小值
     
