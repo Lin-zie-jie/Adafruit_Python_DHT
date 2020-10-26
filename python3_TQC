@@ -30,3 +30,14 @@ while True:
 print(min(l))
 ##不斷輸入數字，輸入9999停止並輸出數字中的最小值
     
+
+def gdc(m,n):
+    if n==0:
+        return m
+    else:
+        return gdc(n,m%n)
+
+a=eval(input())
+b=eval(input())
+print("最大公因數:",gdc(a,b))
+##利用函式找出最大公因數
